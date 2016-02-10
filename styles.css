@@ -40,11 +40,13 @@ p1 {
   text-decoration:none;
 }
 
+<style>
 @media screen and (max-width: 480px) {
 fluidimage {
-      width: 50%;
+      max-width: 50%;
       height = auto;
 }}
+</style>
 
 .img-circle {
       border-radius: 50%;
