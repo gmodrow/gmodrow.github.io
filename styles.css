@@ -40,13 +40,7 @@ p1 {
   text-decoration:none;
 }
 
-<style>
-@media screen and (max-width: 480px) {
-fluidimage {
-      max-width: 50%;
-      height = auto;
-}}
-</style>
+.img-scale {width: 100%; height: auto; }
 
 .img-circle {
       border-radius: 50%;
