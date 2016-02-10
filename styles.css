@@ -43,6 +43,7 @@ p1 {
 .img-scale {max-width: 100%; height: auto; }
 
 .logo-scale {max-width: 50%; height: auto; }
+.logo-scale2 {max-width: 50%; height: auto; padding-top: 4px; padding-bottom: 4px}
 
 .img-circle {
       border-radius: 50%;
