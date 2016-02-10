@@ -39,17 +39,22 @@ p1 {
   color:#000;
   text-decoration:none;
 }
-/* For devices 400px and smaller: */
-/*@media screen and (max-width: 400px) {*/
-/*.img-circle {*/
-      /*border-radius: 50%;*/
-      /*width: 50px;*/
-  /*}}*/
 
-/* For devices 400px and larger: */
-/*@media screen and (min-width: 400px) {*/
+@media screen and (max-width: 480px) {
+fluidimage {
+      width: 50%;
+      height = auto;
+}}
+
 .img-circle {
       border-radius: 50%;
       width: 125px;
   }
-/*}*/
+
+footer {
+      background-color:black;
+      color:white;
+      clear:both;
+      text-align:center;
+      padding:5px;
+  }

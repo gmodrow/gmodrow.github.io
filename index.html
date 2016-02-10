@@ -3,10 +3,9 @@
 <head>
   <title>Welcome to Superbowl 50!</title>
   <meta charset="UTF-8">
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -44,30 +43,35 @@
 <div class="container">
     <div class="row">
       <div class="col-sm-12">
-        <img src="superbowl50qb.jpg">
-      <h1><strong>Are you a Denver Broncos or Carolina Panthers fan?</strong></h1>
+        <div style="margin: 0px auto; text-align: center;">
+          <img class="fluidimage" src="superbowl50qb.jpg"></div>
+        <h1><strong>Are you a Denver Broncos or <font color = black>Carolina Panthers</font> fan?</strong></h1>
     </div>
 
     <div class="row">
       <div class="col-sm-6">
-        <a href="broncos.html"><img src="broncos_logo.png" alt="Broncos" width="300px" height="auto"></a>
+        <center><a href="broncos.html"><img src="broncos_logo.png" alt="Broncos" width="300px" height="auto"></a></center>
       </div>
 
       <div class="col-sm-6">
-        <a href="panthers.html"><img src="panthers_logo.png" alt="Panthers" width="300px" height="auto"></a>
+        <center><a href="panthers.html"><img src="panthers_logo.png" alt="Panthers" width="300px" height="auto"></a></center>
       </div>
     </div>
 
     <div class="row">
       <div class="col-sm-6">
-        <p><p1>The Denver Broncos were 12-4 in the regular season and have beaten the New England Patriots 20-18 and the Pittsburgh Steelers 23-16.<br>They are +5.5 underdog against the Panthers.</p1></p>
+        <p><p1>The Denver Broncos were 12-4 in the regular season and have beaten the New England Patriots 20-18 and the Pittsburgh Steelers 23-16.<br><br>They are +5.5 underdog against the Panthers.</p1></p>
       </div>
 
       <div class="col-sm-6">
-        <p><p1>The Carolina Panthers were 15-1 in the regular season and have beaten the Arizona Cardinals 49-15 and the Seattle Seahawks 31-24.<br>They are -5.5 favorite against the Panthers.</p1></p>
+        <p><p1>The Carolina Panthers were 15-1 in the regular season and have beaten the Arizona Cardinals 49-15 and the Seattle Seahawks 31-24.<br><br>They are -5.5 favorite against the Panthers.</p1></p>
       </div>
     </div>
 
-
+    <footer>
+      <p>Created by: Gary Modrow, Intro to Web Development</p>
+      <p>Contact information: <a href="mailto:g-modrow@kellogg.northwestern.edu">
+      g-modrow@kellogg.northwestern.edu</a>.</p>
+    </footer>
 </body>
 </html>
