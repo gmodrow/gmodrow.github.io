@@ -40,7 +40,9 @@ p1 {
   text-decoration:none;
 }
 
-.img-scale {width: 75%; height: auto; }
+.img-scale {max-width: 100%; height: auto; }
+
+.logo-scale {max-width: 50%; height: auto; }
 
 .img-circle {
       border-radius: 50%;
